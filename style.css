@@ -1,0 +1,45 @@
+/*
+* Author: Ryan Peters
+* Date: 01/12/16
+* Assingment: HTML/CSS Assingment
+* Description: Stylesheet for content.html.  Makes the first column
+* 	of the table italics.  Makes the divs colored and controls the 
+*	the size.
+*/
+th, td {
+	width: 5em;
+}
+
+tbody th{
+	font-style: italic;
+	font-weight: normal;
+}
+
+tbody tr:nth-of-type(odd){
+	background-color: cornflowerblue;
+}
+
+tbody tr:nth-of-type(even){
+	background-color: crimson;
+}
+
+div[name="outer-content"]{
+	position: relative;
+	top: 20px;
+	width: 75%;
+	height: 50px;
+	background-color: pink;
+}
+
+div[name="inner-content"]{
+	position: relative;
+	top: 25%;
+	width: 75%;
+	height: 50%;
+	margin: auto;
+	background-color: blue;
+	color: white;
+	font-size: 120%;
+	text-align: center;
+}
+	
